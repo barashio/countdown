@@ -38,6 +38,6 @@ for f in /tmp/countdown.*; do
 
         # Notify the user and play a sound when the timer reaches 0
         notify-send "Timer Finished!"
-        mpv ~/scripts/alarm.ogg
+        mpv /home/null/.config/suckless/countdown/alarm.ogg
     fi
 done
