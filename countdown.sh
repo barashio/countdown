@@ -37,7 +37,7 @@ for f in /tmp/countdown.*; do
         done
 
         # Notify the user and play a sound when the timer reaches 0
-        notify-send "Timer Finished!"
+        herbe "Timer Finished!"
         mpv /home/null/.config/suckless/countdown/alarm.ogg
     fi
 done
